@@ -1,0 +1,17 @@
+{
+    "extends": "../tslint.json",
+    "rules": {
+        "directive-selector": [
+            true,
+            "attribute",
+            "CDREM-Dallah",
+            "camelCase"
+        ],
+        "component-selector": [
+            true,
+            "element",
+            "CDREM-Dallah",
+            "kebab-case"
+        ]
+    }
+}
